@@ -7,13 +7,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/core-process/snapsync.git"
+    "url": "git+https://github.com/coreprocess/snapsync.git"
   },
   "binary": {
     "module_name": "snapsync",
     "module_path": "./lib/binding/{node_abi}-{platform}-{arch}-{libc}/",
     "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}-{libc}.tar.gz",
-    "host": "https://github.com/core-process/snapsync/releases/download/",
+    "host": "https://github.com/coreprocess/snapsync/releases/download/",
     "remote_path": "{version}"
   },
   "dependencies": {

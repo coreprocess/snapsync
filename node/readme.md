@@ -20,7 +20,7 @@ or
 yarn add snapsync
 ```
 
-This npm-library provides prebuilt binaries for a particular set of platforms with the help of [node-pre-gyp](https://www.npmjs.com/package/node-pre-gyp) and [node-pre-gyp-github](https://www.npmjs.com/package/node-pre-gyp-github). In case there are no prebuilt binaries for your platform, the installation procedure tries to fall back to building the library from source code. Building from source code requires further dependencies which cannot be provided via NPM. Therefore building from source code will fail in this context. If you want to build the module for your architecture, please follow [these instructions](https://github.com/core-process/snapsync). Or [create a ticket](https://github.com/core-process/snapsync/issues/new) stating your requirements and I will include your architecture in our regular builds ASAP.
+This npm-library provides prebuilt binaries for a particular set of platforms with the help of [node-pre-gyp](https://www.npmjs.com/package/node-pre-gyp) and [node-pre-gyp-github](https://www.npmjs.com/package/node-pre-gyp-github). In case there are no prebuilt binaries for your platform, the installation procedure tries to fall back to building the library from source code. Building from source code requires further dependencies which cannot be provided via NPM. Therefore building from source code will fail in this context. If you want to build the module for your architecture, please follow [these instructions](https://github.com/coreprocess/snapsync). Or [create a ticket](https://github.com/coreprocess/snapsync/issues/new) stating your requirements and I will include your architecture in our regular builds ASAP.
 
 ## Usage
 

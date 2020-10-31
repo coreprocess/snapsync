@@ -4,7 +4,7 @@ An excellent library and toolset for optimized transfers of single files and dir
 
 librsync helps with the efficient calculation of the differences between two files. The rsync algorithm is different from most differencing algorithms because it does not require the presence of the two files to calculate the delta. Instead, it requires a set of checksums of each block of one file, which together form a signature for that file. Blocks at any in the other file which have the same checksum are likely to be identical, and whatever remains is the difference.
 
-Please have a look at the [npm-module](https://github.com/core-process/snapsync/tree/master/node) in case you want to use the library together with NodeJS. In that case, you do not have to build the library manually as we provide prebuilt binaries for a selected set of architectures.
+Please have a look at the [npm-module](https://github.com/coreprocess/snapsync/tree/master/node) in case you want to use the library together with NodeJS. In that case, you do not have to build the library manually as we provide prebuilt binaries for a selected set of architectures.
 
 ## Setup
 
@@ -15,7 +15,7 @@ Please follow the instructions below to build the `snapsync` tools for further u
 sudo apt-get install cmake libboost-all-dev
 
 # clone repository
-git clone --recursive https://github.com/core-process/snapsync.git
+git clone --recursive https://github.com/coreprocess/snapsync.git
 cd snapsync
 
 # build dependencies, libraries and tools

@@ -1,6 +1,6 @@
 [submodule "librsync"]
 	path = librsync
-	url = https://github.com/core-process/librsync.git
+	url = https://github.com/coreprocess/librsync.git
 [submodule "cryptopp"]
 	path = cryptopp
-	url = https://github.com/core-process/cryptopp.git
+	url = https://github.com/coreprocess/cryptopp.git
